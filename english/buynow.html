@@ -115,9 +115,8 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="media-container-column col-lg-8" data-form-type="formoid">
-                    <div data-form-alert="" hidden="">Thanks for filling out the form!</div>
-            
-                    <form class="mbr-form" action="" method="post" data-form-title="Form"><input type="hidden" name="email" data-form-email="true" value="REv7cafougdnJpqN19UvtwMzo8opELiYvq/+/w6CkiyX/sd7cv647C4AAE7L5AtK9Dyca/6dDuZeKLKXYCWGVSIFvdDPaX0g+k4SkSfgWQQ2KE/OJufEOUOK3V2EUp6C">
+                    <form class="mbr-form" action="php/buynow.php" method="post" data-form-title="Form">
+                        <input type="hidden" name="email" data-form-email="true" value="">
                         <div class="row row-sm-offset">
                             <div class="col-md-4 multi-horizontal" data-for="name">
                                 <div class="form-group">
@@ -140,7 +139,7 @@
                         </div>
 						<div class="form-group">
     				<label for="exampleFormControlSelect1">Select Your Package*</label>
-    				<select class="form-control" id="exampleFormControlSelect3" required = "">
+    				<select class="form-control" id="exampleFormControlSelect3" required = "" name="packages">
       					<option></option>
 						<option>STANDARD</option>
       					<option>POPULAR</option>
@@ -158,7 +157,12 @@
 								<span class="mbri-cart-full mbr-iconfont mbr-iconfont-btn"></span>BUY NOW
 							</button>
 						</span>
-                    <span class="gdpr-block "><label><input type="checkbox" name="gdpr" id="gdpr-form1-1k" required="">By continiung you agree to our <a href="terms.html">Terms of Service</a> and <a href="policy.html">Privacy Policy</a>.</label></span></form>
+                    <span class="gdpr-block ">
+                        <label>
+                            <input type="checkbox" name="validation" id="gdpr-form1-1k" required="">By continiung you agree to our <a href="terms.html">Terms of Service</a> and <a href="policy.html">Privacy Policy</a>.
+                        </label>
+                    </span>
+                </form>
             </div>
         </div>
     </div>
@@ -264,8 +268,6 @@
   <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
   <script src="assets/theme/js/script.js"></script>
-  <script src="assets/formoid/formoid.min.js"></script>
-  
   
  <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i></i></a></div>
     <input name="animation" type="hidden">
