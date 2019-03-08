@@ -1,44 +1,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>http://gixez.com/index.html</loc>
+		<loc>http://gixez.com/english/index.html</loc>
 	</url>
 	<url>
-		<loc>http://gixez.com/packages.html</loc>
+		<loc>http://gixez.com/english/packages.html</loc>
 	</url>
 	<url>
-		<loc>http://gixez.com/contact_us.html</loc>
+		<loc>http://gixez.com/english/contact_us.html</loc>
 	</url>
 	<url>
-		<loc>http://gixez.com/about_us.html</loc>
+		<loc>http://gixez.com/english/about_us.html</loc>
 	</url>
 	<url>
-		<loc>http://gixez.com/faq.html</loc>
+		<loc>http://gixez.com/english/faq.html</loc>
 	</url>
 	<url>
-		<loc>http://gixez.com/socialmediamarketing.html</loc>
+		<loc>http://gixez.com/english/socialmediamarketing.html</loc>
 	</url>
 	<url>
-		<loc>http://gixez.com/optimaition.html</loc>
+		<loc>http://gixez.com/english/optimaition.html</loc>
 	</url>
 	<url>
-		<loc>http://gixez.com/webdevelopment.html</loc>
+		<loc>http://gixez.com/english/webdevelopment.html</loc>
 	</url>
 	<url>
-		<loc>http://gixez.com/webdesing.html</loc>
+		<loc>http://gixez.com/english/webdesing.html</loc>
 	</url>
 	<url>
-		<loc>http://gixez.com/Tech.html</loc>
+		<loc>http://gixez.com/english/Tech.html</loc>
 	</url>
 	<url>
-		<loc>http://gixez.com/LowCost.html</loc>
+		<loc>http://gixez.com/english/LowCost.html</loc>
 	</url>
 	<url>
-		<loc>http://gixez.com/webforbusiness.html</loc>
+		<loc>http://gixez.com/english/webforbusiness.html</loc>
 	</url>
 	<url>
-		<loc>http://gixez.com/privacy.html</loc>
+		<loc>http://gixez.com/english/policy.html</loc>
 	</url>
 	<url>
-		<loc>http://gixez.com/buynow.html</loc>
+		<loc>http://gixez.com/english/buynow.html</loc>
+	</url>
+	<url>
+		<loc>http://gixez.com/english/terms.html</loc>
+	</url>
+	<url>
+		<loc>http://gixez.com/english/moreworks.html</loc>
 	</url>
 </urlset>
