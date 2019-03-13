@@ -19,7 +19,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
-<title>Coustermer Dashboard</title>
+<title>Customer Dashboard</title>
 <link href ="css/bootstrap-4.0.0.css" rel="stylesheet" type="text/css">
 <style>
 #myBtn {
@@ -89,14 +89,14 @@
 	<p>Business Name - <?php echo($row["busName"]) ?> </p>
 	<p>Business Address - <?php echo($row["busAddress"]) ?> </p>
 	<p>Business Email - <?php echo($row["busEmail"]) ?> </p>
-	<p>Office Phoneline - <?php echo($row["busPhone"]) ?> </p>
+	<p>Office Phone line - <?php echo($row["busPhone"]) ?> </p>
 	<hr>
 </div>
 <div class="container">
 	<h5>Payment Details</h5><br>
 	<p>Full Payment - <?php echo($row["fullPayment"]) ?> </p>
 	<p>Discount - <?php echo($row["discount"]) ?> </p>
-	<p>Payment Methord - <?php echo($row["paymnetMethord"]) ?> </p>
+	<p>Payment Method - <?php echo($row["paymnetMethord"]) ?> </p>
 	<p>Check Number - <?php echo($row["checkNumber"]) ?> </p>
 	<p>Bank Name - <?php echo($row["bank"]) ?> </p>
 	<p>Payment Status - <?php echo($row["paymentStatus"]) ?> </p>
@@ -111,18 +111,18 @@
 	<p>Projct Name - <?php echo($row["projectName"]) ?> </p>
 	<p>Project Starts - <?php echo($row["projectStarts"]) ?> </p>
 	<p>Project Status - <?php echo($row["projectStatus"]) ?> </p>
-  <p>Astimate Delivary Date - <?php echo($row["astimateDelivaryTime"]) ?> </p>
+  <p>Estimated Delivery Date - <?php echo($row["astimateDelivaryTime"]) ?> </p>
 	<h6 class="text-center">Click Here to view Project <br><br> 
 	  <a href="<?php echo ($row["URL"]) ?>"><button type="button" class="btn btn-primary">Project URL</button></a>
 	</h6>
 	<hr>
 </div>
 <div class = "container">
-	<h6 class = "text-center">Please Make Suwer to log out to protect your data</h6>
+	<h6 class = "text-center">Please Make Sure to Log Out to Protect Your Data</h6>
 </div>
 <footer>
 <div class="container-fluid" style="background: #2E2E2E; padding-bottom: 3px ;padding-top: 3px;">
-	<h6 style="color: aliceblue;text-align: center; padding-top: 5px;">GIXEZ IT Coustermer Dashboard 2019 <sup>©</sup></h6>
+	<h6 style="color: aliceblue;text-align: center; padding-top: 5px;">GIXEZ IT Customer Dashboard 2019 <sup>©</sup></h6>
 	</div>
 </footer>
 <script src="js/jquery-3.2.1.min.js"></script>

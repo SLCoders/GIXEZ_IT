@@ -19,7 +19,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
-<title>Change Details</title>
+<title>Update Form</title>
 <link href ="css/bootstrap-4.0.0.css" rel="stylesheet" type="text/css">
 <style>
 #myBtn {
@@ -103,7 +103,7 @@
 	    <label for="exampleInputPassword1">New Password</label>
 	    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Your New Password" required name="password" minlength="8">
     </div>
-	<h6 class="text-center">Click here to Update the personal details<br><br>
+	<h6 class="text-center">Click here to Update the Personal Details<br><br>
 	<button type="submit" class="btn btn-primary">Update Details</button></h6>
   </form>
 
@@ -112,11 +112,11 @@
 
 
 <div class = "container">
-	<h6 class = "text-center">Please Make Suwer to log out to protect your data</h6>
+	<h6 class = "text-center">Please Make Sure to Log Out to Protect Your Data</h6>
 </div>
 <footer>
 <div class="container-fluid" style="background: #2E2E2E; padding-bottom: 3px ;padding-top: 3px;">
-	<h6 style="color: aliceblue;text-align: center; padding-top: 5px;">GIXEZ IT Coustermer Dashboard 2019 <sup>©</sup></h6>
+	<h6 style="color: aliceblue;text-align: center; padding-top: 5px;">GIXEZ IT Customer Dashboard 2019 <sup>©</sup></h6>
 	</div>
 </footer>
 <script src="js/jquery-3.2.1.min.js"></script>
