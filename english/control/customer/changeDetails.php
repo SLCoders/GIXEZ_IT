@@ -45,6 +45,46 @@
 </head>
 
 <body style="padding-top: 70px">
+<script language="JavaScript">
+             
+                window.onload = function() {
+                  document.addEventListener("contextmenu", function(e){
+                    e.preventDefault();
+                  }, false);
+                  document.addEventListener("keydown", function(e) {
+                  //document.onkeydown = function(e) {
+                    // "I" key
+                    if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+                      disabledEvent(e);
+                    }
+                    // "J" key
+                    if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+                      disabledEvent(e);
+                    }
+                    // "S" key + macOS
+                    if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+                      disabledEvent(e);
+                    }
+                    // "U" key
+                    if (e.ctrlKey && e.keyCode == 85) {
+                      disabledEvent(e);
+                    }
+                    // "F12" key
+                    if (event.keyCode == 123) {
+                      disabledEvent(e);
+                    }
+                  }, false);
+                  function disabledEvent(e){
+                    if (e.stopPropagation){
+                      e.stopPropagation();
+                    } else if (window.event){
+                      window.event.cancelBubble = true;
+                    }
+                    e.preventDefault();
+                    return false;
+                  }
+                };
+              </script>
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" style="background: linear-gradient(to bottom, #4169E1, MidnightBlue)"> <a class="navbar-brand" href="http://www.gixez.com/" style="color: aliceblue">GIXEZ IT</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation" style="background:aliceblue"> <span class="navbar-toggler-icon"></span> </button>
