@@ -1,1 +1,1 @@
-$conn = mysqli_connect("localhost","gixezcom_admin","0757003662","gixezcom_user_inputs");
+$conn = mysqli_connect("localhost","gixezcom_admin","0757003662","gixezcom_gixez");
