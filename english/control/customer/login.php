@@ -3,7 +3,7 @@
     $email = $_POST['email'];
     $password = $_POST['password'];
 
-    $link = mysqli_connect('localhost','root','','gixez');
+    $link = mysqli_connect("localhost","gixezcom_admin","0757003662","gixezcom_gixez");
 	$q = "SELECT email,password FROM userlogin WHERE email = '$email' AND password = '$password' ";
 	$run = mysqli_query($link,$q);
 	

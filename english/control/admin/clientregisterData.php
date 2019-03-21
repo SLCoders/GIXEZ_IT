@@ -27,7 +27,7 @@
   $ProAsstimateTime = $_POST['proAsstimateTime'];
   $Url = $_POST['url'];
 
-  $link = mysqli_connect('localhost','root','','gixez'); // DB connection
+  $link = mysqli_connect("localhost","gixezcom_admin","0757003662","gixezcom_gixez"); // DB connection
 
   $sqlQuery = "INSERT INTO `userlogin` (`ID`, `fristName`, `lastName`, `address`, `contatNo`, `email`, `password`, `busType`, `busName`, `busAddress`, `busEmail`, 
   `busPhone`, `fullPayment`, `discount`, `paymnetMethord`, `bank`, `checkNumber`, `paymentStatus`, `fristPayment`, `fristPaymentDate`, `duePayment`, `duePaymentComplete`, 

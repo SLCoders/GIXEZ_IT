@@ -10,7 +10,7 @@ $Email_Address = $_POST["email"];
 $Contact_No = $_POST["phone"];
 $Message = $_POST["message"];
 
-$conn = mysqli_connect("localhost","root","","gixez");
+$conn = mysqli_connect("localhost","gixezcom_admin","0757003662","gixezcom_gixez");
 $query = "INSERT INTO quote (Company_Name,Business_Type,Number_of_Pages,user_account_facility,refer_website,Do_you_have_web_site,Contact_Name,Email_Address,Contact_No,Message)
           VALUES('$Company_Name','$Business_Type','$Number_of_Pages','$user_account_facility','$refer_website','$Do_you_have_web_site','$Contact_Name','$Email_Address','$Contact_No','$Message')";
 $run = mysqli_query($conn,$query);

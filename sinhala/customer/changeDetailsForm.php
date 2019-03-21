@@ -7,7 +7,7 @@
     $ContactNumber = $_POST['contactNumber'];
     $email = $_POST['email'];
     $NewPassword =$_POST['password'];
-    $link = mysqli_connect('localhost','root','','gixez');
+    $link = mysqli_connect("localhost","gixezcom_admin","0757003662","gixezcom_gixez");
     $sqlQuery = "UPDATE userlogin SET fristName='$fname', lastName = '$lname', address = '$address', contatNo = '$ContactNumber', email = '$email', password = '$NewPassword' WHERE ID=$id";
     $r = mysqli_query($link, $sqlQuery);
 if($r){

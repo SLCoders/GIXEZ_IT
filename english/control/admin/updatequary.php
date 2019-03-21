@@ -29,7 +29,7 @@
   $Url = $_POST['url'];
 
 
-  $link = mysqli_connect('localhost','root','','gixez'); // DB connection
+  $link = mysqli_connect("localhost","gixezcom_admin","0757003662","gixezcom_gixez"); // DB connection
   
   $sqlQuery = "UPDATE userlogin SET fristName='$Fname', lastName = '$Lname', address = '$Address', contatNo = '$ContactNum', email = '$Email', password = '$Password',
   busType = '$BusType', busName = '$BusName', busAddress ='$BusAddress', busEmail = '$BusEmail', busPhone = '$OfficePhone', fullPayment = '$FullPayment',

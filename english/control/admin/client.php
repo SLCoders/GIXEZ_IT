@@ -51,7 +51,7 @@
   <h5 class="text-center"><strong>All Client's Data Table</strong></h5>
 	<br>
 	<?php
-		$conn = mysqli_connect("localhost","root","","gixez");
+		$conn = mysqli_connect("localhost","gixezcom_admin","0757003662","gixezcom_gixez");
 		$q = "SELECT * FROM userlogin";
 		$result = mysqli_query($conn,$q);
  echo "<table width='1150' border='1' class= 'table-responsive table-hover table-sm'>";

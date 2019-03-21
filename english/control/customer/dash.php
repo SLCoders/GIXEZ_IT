@@ -6,7 +6,7 @@
 	}
 	
 	$log= $_SESSION['currentUserDetails']["email"];
-	$link = mysqli_connect('localhost','root','','gixez');
+	$link = mysqli_connect("localhost","gixezcom_admin","0757003662","gixezcom_gixez");
 	$q = "SELECT*FROM userlogin WHERE email = '$log'";
 	$run = mysqli_query($link,$q);
 	$row=mysqli_fetch_assoc($run);

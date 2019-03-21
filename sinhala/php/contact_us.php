@@ -4,7 +4,7 @@ $email = $_POST["email"] ;
 $phone = $_POST["phone"];
 $message = $_POST["message"] ;
 
-$conn = mysqli_connect("localhost","root","","gixez");
+$conn = mysqli_connect("localhost","gixezcom_admin","0757003662","gixezcom_gixez");
 $query = "INSERT INTO contact_us (Name,Email,Phone,Message) VALUES('$name','$email','$phone','$message')";
 $run = mysqli_query($conn,$query);
 

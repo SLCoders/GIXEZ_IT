@@ -6,7 +6,7 @@ $phone = $_POST["phone"];
 $package = $_POST["packages"];
 $message = $_POST["message"] ;
 
-$conn = mysqli_connect("localhost","root","","gixez");
+$conn = mysqli_connect("localhost","gixezcom_admin","0757003662","gixezcom_gixez");
 $query = "INSERT INTO buynow (Name,Email,Phone,Package,Message) VALUES('$name','$email','$phone','$package','$message')";
 $run = mysqli_query($conn,$query);
 

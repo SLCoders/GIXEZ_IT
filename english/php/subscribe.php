@@ -1,7 +1,7 @@
 <?php 
 $subemail = $_POST["email"];
 
-$conn = mysqli_connect("localhost","root","","gixez");
+$conn = mysqli_connect("localhost","gixezcom_admin","0757003662","gixezcom_gixez");
 $query = "INSERT INTO subscribe (subemail) VALUES('$subemail')";
 $run = mysqli_query($conn,$query);
 if($run){
